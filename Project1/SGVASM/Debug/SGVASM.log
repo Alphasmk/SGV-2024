@@ -1,0 +1,15 @@
+﻿  Assembling asm.asm...
+asm.asm(72): error A2022: instruction operands must be the same size
+asm.asm(91): error A2022: instruction operands must be the same size
+asm.asm(109): error A2022: instruction operands must be the same size
+asm.asm(119): error A2022: instruction operands must be the same size
+asm.asm(120): error A2022: instruction operands must be the same size
+asm.asm(164): error A2022: instruction operands must be the same size
+asm.asm(181): error A2022: instruction operands must be the same size
+asm.asm(182): error A2022: instruction operands must be the same size
+asm.asm(183): error A2022: instruction operands must be the same size
+asm.asm(198): error A2022: instruction operands must be the same size
+asm.asm(207): error A2022: instruction operands must be the same size
+asm.asm(227): error A2022: instruction operands must be the same size
+asm.asm(240): error A2022: instruction operands must be the same size
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml.exe /c /nologo /Zi /Fo"Debug\asm.obj" /W3 /errorReport:prompt  /Taasm.asm" с кодом "1".

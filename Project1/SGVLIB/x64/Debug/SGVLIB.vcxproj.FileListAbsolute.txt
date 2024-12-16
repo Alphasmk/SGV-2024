@@ -1,0 +1,2 @@
+E:\unic\courseKPO\Project1\x64\Debug\SGVLIB.lib.lastcodeanalysissucceeded
+E:\unic\courseKPO\Project1\SGVLIB\x64\Debug\NativeCodeAnalysis.read.1.tlog

@@ -1,0 +1,64 @@
+integer function ts(integer x, integer z)
+{
+declare integer a;
+declare string sts;
+sts = 'hello world';
+a = (2 + 2)*2;
+_printStr('Результат:');
+_printStr(sts);
+_printInt(a);
+a = _pow(z, x);
+return a;
+};
+string function sa(integer k)
+{
+declare string a;
+declare integer b;
+b = _pow(3, 2);
+_printInt(b);
+b = k;
+if(b == k)
+{
+a = 'it true';
+}
+else
+{
+a = 'it false';
+};
+_printStr(a);
+return a;
+};
+
+string function sayhi()
+{
+_printStr('hello');
+return 'done';
+};
+
+main
+{
+declare integer x;
+declare integer y;
+declare integer z;
+declare string ksa;
+sayhi();
+declare char ghj;
+ghj = 'f';
+x = 2;
+y = 1 + 2 * 3;
+if(x == y)
+{
+x = y - 1;
+}
+else
+{
+x = y;
+};
+ksa = sa(x);
+z = _exp(3) + 5;
+_printInt(z);
+z = ts(x, y);
+_printInt(z);
+_pause();
+return 0;
+};

@@ -1,0 +1,76 @@
+﻿  Assembling asm.asm...
+asm.asm(1): error A2008: syntax error : .
+asm.asm(2): error A2008: syntax error : .
+asm.asm(16): error A2008: syntax error : .
+asm.asm(53): error A2070: invalid instruction operands
+asm.asm(54): error A2070: invalid instruction operands
+asm.asm(58): error A2070: invalid instruction operands
+asm.asm(59): error A2070: invalid instruction operands
+asm.asm(61): error A2070: invalid instruction operands
+asm.asm(63): error A2070: invalid instruction operands
+asm.asm(64): error A2070: invalid instruction operands
+asm.asm(66): error A2070: invalid instruction operands
+asm.asm(67): error A2070: invalid instruction operands
+asm.asm(74): error A2070: invalid instruction operands
+asm.asm(77): error A2070: invalid instruction operands
+asm.asm(82): error A2070: invalid instruction operands
+asm.asm(83): error A2070: invalid instruction operands
+asm.asm(85): error A2070: invalid instruction operands
+asm.asm(86): error A2070: invalid instruction operands
+asm.asm(95): error A2070: invalid instruction operands
+asm.asm(101): error A2070: invalid instruction operands
+asm.asm(103): error A2070: invalid instruction operands
+asm.asm(104): error A2070: invalid instruction operands
+asm.asm(113): error A2070: invalid instruction operands
+asm.asm(114): error A2070: invalid instruction operands
+asm.asm(125): error A2070: invalid instruction operands
+asm.asm(126): error A2070: invalid instruction operands
+asm.asm(130): error A2070: invalid instruction operands
+asm.asm(131): error A2070: invalid instruction operands
+asm.asm(135): error A2070: invalid instruction operands
+asm.asm(137): error A2070: invalid instruction operands
+asm.asm(140): error A2070: invalid instruction operands
+asm.asm(146): error A2070: invalid instruction operands
+asm.asm(148): error A2070: invalid instruction operands
+asm.asm(151): error A2070: invalid instruction operands
+asm.asm(159): error A2070: invalid instruction operands
+asm.asm(168): error A2070: invalid instruction operands
+asm.asm(169): error A2070: invalid instruction operands
+asm.asm(171): error A2070: invalid instruction operands
+asm.asm(172): error A2070: invalid instruction operands
+asm.asm(173): error A2070: invalid instruction operands
+asm.asm(175): error A2070: invalid instruction operands
+asm.asm(176): error A2070: invalid instruction operands
+asm.asm(189): error A2070: invalid instruction operands
+asm.asm(190): error A2070: invalid instruction operands
+asm.asm(192): error A2070: invalid instruction operands
+asm.asm(193): error A2070: invalid instruction operands
+asm.asm(202): error A2070: invalid instruction operands
+asm.asm(211): error A2070: invalid instruction operands
+asm.asm(212): error A2070: invalid instruction operands
+asm.asm(216): error A2070: invalid instruction operands
+asm.asm(218): error A2070: invalid instruction operands
+asm.asm(219): error A2070: invalid instruction operands
+asm.asm(221): error A2070: invalid instruction operands
+asm.asm(222): error A2070: invalid instruction operands
+asm.asm(234): error A2070: invalid instruction operands
+asm.asm(235): error A2070: invalid instruction operands
+asm.asm(249): error A2070: invalid instruction operands
+asm.asm(253): error A2070: invalid instruction operands
+asm.asm(256): error A2070: invalid instruction operands
+asm.asm(259): error A2008: syntax error : main
+asm.asm(259): error A2088: END directive required at end of file
+asm.asm(72): error A2022: instruction operands must be the same size
+asm.asm(91): error A2022: instruction operands must be the same size
+asm.asm(109): error A2022: instruction operands must be the same size
+asm.asm(119): error A2022: instruction operands must be the same size
+asm.asm(120): error A2022: instruction operands must be the same size
+asm.asm(164): error A2022: instruction operands must be the same size
+asm.asm(181): error A2022: instruction operands must be the same size
+asm.asm(182): error A2022: instruction operands must be the same size
+asm.asm(183): error A2022: instruction operands must be the same size
+asm.asm(198): error A2022: instruction operands must be the same size
+asm.asm(207): error A2022: instruction operands must be the same size
+asm.asm(227): error A2022: instruction operands must be the same size
+asm.asm(240): error A2022: instruction operands must be the same size
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\asm.obj" /W3 /errorReport:prompt  /Taasm.asm" с кодом "1".

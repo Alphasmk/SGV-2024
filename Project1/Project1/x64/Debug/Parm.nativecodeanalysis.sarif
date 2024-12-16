@@ -1,0 +1,246 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"GRB::Rule::iderror\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/unic/courseKPO/Project1/Project1/GRB.h"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GRB::Rule::{ctor}",
+                  "decoratedName": "??0Rule@GRB@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GRB::Rule::iderror"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"GRB::Rule::chains\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/unic/courseKPO/Project1/Project1/GRB.h"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GRB::Rule::{ctor}",
+                  "decoratedName": "??0Rule@GRB@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GRB::Rule::chains"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"GRB::Greibach::size\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/unic/courseKPO/Project1/Project1/GRB.h"
+                },
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GRB::Greibach::{ctor}",
+                  "decoratedName": "??0Greibach@GRB@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GRB::Greibach::size"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.41.34120.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///E:/unic/courseKPO/Project1/Project1/GRB.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e8c3888708c9ce099c2c8e07c284ce0e56da17e29eb817330cd9faace92bff55"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/unic/coursekpo/project1/project1/parm.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "d119c7b8dc2f2aa66df19c339d7eda21a35b3b94582a98eb1769705f26f17dd7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/unic/coursekpo/project1/project1/stdafx.h"
+          },
+          "hashes": {
+            "sha-256": "18b5fbb24fb4ecc1d6e16c5b6fd1f8e44df3a9fcb7e9bad6491cbf6bf7badfaa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/unic/coursekpo/project1/project1/error.h"
+          },
+          "hashes": {
+            "sha-256": "5112fe3420bd7a15ebbda5923f5c94120c23dba5935097f79bdcb4bf14b7ffbf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/unic/coursekpo/project1/project1/in.h"
+          },
+          "hashes": {
+            "sha-256": "21849485985c16ab132c2773c60f53f1b843440a3584595e4f48efe2bc02e48c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/unic/coursekpo/project1/project1/it.h"
+          },
+          "hashes": {
+            "sha-256": "387ab6489bab53f2f1cfdfa89ec621bbdcf731c46db194e055a7eb7b853edcc8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/unic/coursekpo/project1/project1/log.h"
+          },
+          "hashes": {
+            "sha-256": "34051a10914436a7f04a9a67dbb9e5c18a5c5c83c6d2e7cb36b8865aec09eac9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/unic/coursekpo/project1/project1/parm.h"
+          },
+          "hashes": {
+            "sha-256": "dbcb4cd1c7e343fe5cb6b124e37bbd21308e84f1af60eb398e1d2abacd3d281f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/unic/coursekpo/project1/project1/lt.h"
+          },
+          "hashes": {
+            "sha-256": "edc929e7fad9d27f45adf4e814ca788a1372a619d23da71fb4c8c4a9aa65fb91"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/unic/coursekpo/project1/project1/lexanalize.h"
+          },
+          "hashes": {
+            "sha-256": "81b413558a778c623969a11301d449392392890e845d5c1a5068e200e0adf351"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/unic/coursekpo/project1/project1/fst.h"
+          },
+          "hashes": {
+            "sha-256": "94478906ed38fc61ad8db707d5ba441a4874ddeabb9a0be9761a3de0864ec208"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/unic/coursekpo/project1/project1/ot.h"
+          },
+          "hashes": {
+            "sha-256": "b63c59ced4db9794dff90c1f0228f6f685e55dae7b75cdcacb78e6f056fc59a6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/unic/coursekpo/project1/project1/mfst.h"
+          },
+          "hashes": {
+            "sha-256": "0160fdeeb05c665c835f72db7314edf750235d4884d9e4bf2789e8c8b4c491c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/unic/coursekpo/project1/project1/polishnotation.h"
+          },
+          "hashes": {
+            "sha-256": "9e7e1b4028db2a8c4c182f8146590db2b859991372946125e9b9e01b2423e1bc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/unic/coursekpo/project1/project1/semanalize.h"
+          },
+          "hashes": {
+            "sha-256": "f4f6f0818e0ba6d34a29edb39d24c577823de2b6a877e893b640431281e46fd1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/unic/coursekpo/project1/project1/codegeneration.h"
+          },
+          "hashes": {
+            "sha-256": "68a1e4138a8de25fc8e02b9be3826e3af702dcf2bae3b87d70d8b3ba599dc457"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+main
+{
+declare integer a;
+a = 2 + 2 * 2;
+_printStr('hello');
+return 0;
+};
